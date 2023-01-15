@@ -1,0 +1,557 @@
+* {
+	box-sizing: border-box;
+	 --layout: 'full';
+}
+
+#body {
+	background-color: #F8F9FA;
+	font-family: verdanna;
+	font-size: 14px;
+}
+
+
+.header {
+	background: #1C3879;
+	font-size: 100%;
+	padding: 0;
+	width: 100%;
+	margin:auto;
+}
+.header img{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.header img:hover{
+	opacity: 0.9;
+	transition: 0.5s;
+	padding: 0;
+}
+
+
+.floatingMenu img{ 
+		width: 40px;
+		float: right;
+		margin-right: 50px;
+		margin-top: 10px;
+}
+.floatingMenu img:hover{ 
+	opacity: 0.9;
+	transition: 0.5s;
+	padding: 0;
+	
+}
+/* The side navigation menu */
+.sidenav {
+  opacity: 0.9;
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #2a2782; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+  opacity: 0.9;
+  transition: 0.5s;
+  padding: 0;
+}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+#group {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  
+}
+#img_1 {
+/* 	font-size: 100%;
+	padding: 0;
+	width: 100%;
+	margin:auto; */
+}
+#img_1:hover{
+  opacity: 0.9;
+  transition: 0.5s;
+  padding: 0;
+}
+#animated {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -600px;
+}
+#text {
+  text-decoration: none;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   margin-top: -600px;
+}
+
+
+.botton {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  text-decoration: none;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 120px;
+  margin-top: -450px;
+}
+
+.botton img {
+  width: 100%;
+  height: auto;
+}
+
+.botton .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FFA41B;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.botton .btn:hover {
+  background-color: #ffbb00;
+}
+
+.card1{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.card1 p{
+  color: rgb(70, 69, 69);
+  font-size: larger;
+  margin-top:-25px ;
+  float: left;
+}
+.card1 img{
+  float: right;
+  margin-top: 20;
+ }
+.multicolor  {
+color: rgb(211, 152, 15);
+ }
+ #h{
+  font-size: xx-large;
+  text-align-last: left;
+  /* float: left; */
+ }
+
+
+#rows {
+  display: table;
+}
+
+#leftcolumn {
+  width: 50%;
+  float: left;
+}
+
+#rightcolumn {
+  width: 50%;
+  float: right;
+}
+
+
+.group2 {
+  /* background: url("../img/25.png"); */
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-top: 250px;
+}
+/* #img_2 {
+
+	font-size: 100%;
+	padding: 0;
+	width: 35%;
+	margin:left;
+	
+} */
+#text_2 {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -10px;
+}
+#t {
+	font-size: large;
+	margin-top: -150px
+	
+}
+
+
+.card2{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  height:365px;
+/*   border: 15px solid transparent; */
+/*   padding: 15px; */
+/*   border: 15px solid transparent;
+  padding: 15px;
+ */ 
+/*   width: auto;
+  border: 1px solid black; */
+  box-shadow: -40px 40px 160px 0 rgb(0 0 0 / 8%), -8px 8px 15px 0 rgb(120 120 120 / 4%), 3px 3px 30px 0 rgb(0 0 0 / 4%) !important;
+  background-color:#FFFFFF;
+}
+.card2 a{
+/*   color: rgb(70, 69, 69); */
+  font-size: larger;
+  margin-top::-25px ;
+  float: left;
+  padding-left: 30px;
+  padding-top: -20px;
+/*   padding-bottom: 50px;  */
+}
+.card2 a{
+    color: black;
+    text-decoration: none;
+}
+.card2 a:hover{
+    text-decoration: underline;
+/* 	opacity: 0.9;
+	transition: 0.5s;
+	padding: 0; */
+}
+.card2 img{
+  float: right;
+  margin-top: 20;
+  width: 550px;
+/*   border: 1px solid rgba(0, 0, 0, 0.8); */
+ }
+.Football  {
+  color: rgb(211, 152, 15);
+ }
+ #f{
+  font-size: xx-large;
+  text-align-last: left;
+  /* float: left; */
+  padding-left: 30px;
+/*   padding-bottom: -50px; */
+  margin-top:50px;
+ }
+
+
+
+.card3{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 150px;
+  clear: both;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  height:375px;
+/*     width: auto; */
+/*   border: 1px solid black; */
+  box-shadow: -40px 40px 160px 0 rgb(0 0 0 / 8%), -8px 8px 15px 0 rgb(120 120 120 / 4%), 3px 3px 30px 0 rgb(0 0 0 / 4%) !important;
+  background-color:#FFFFFF;
+}
+.card3 a{
+  color: rgb(70, 69, 69);
+  font-size: larger;
+  margin-top: -25px;
+  float: rigth;
+  padding-left: 800px;
+/*   padding-top: 100px; */
+/*   padding-bottom: 50%; */ 
+  color: black;
+  /* text-decoration: none; */
+  
+  
+}
+.card3 a:hover{
+    text-decoration: underline;
+/* 	opacity: 0.9;
+	transition: 0.5s;
+	padding: 0; */
+} 
+.card3 img{
+  float: left;
+  margin-top: -15%;
+ }
+.Handball{
+  color: rgb(211, 152, 15);
+ }
+ #b{
+  font-size: x-large;
+  /* text-align-last: left; */
+  /* float: left; */
+  padding-left: 800px;
+ /*  margin-right: -50px; */
+ }
+
+
+
+.card4{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 150px;
+  clear: both;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  height:368px;
+  box-shadow: -40px 40px 160px 0 rgb(0 0 0 / 8%), -8px 8px 15px 0 rgb(120 120 120 / 4%), 3px 3px 30px 0 rgb(0 0 0 / 4%) !important;
+  background-color:#FFFFFF;
+}
+.card4 a{
+  color: rgb(70, 69, 69);
+  font-size: larger;
+  margin-top:-25px ;
+  float: left;
+/*   padding-right: 200px; */
+  padding-left: 30px;
+  padding-top: 40px;
+}
+.card4 a{
+    color: black;
+    text-decoration: none;
+}
+.card4 a:hover{
+    text-decoration: underline;
+/* 	opacity: 0.9;
+	transition: 0.5s;
+	padding: 0; */
+}
+.card4 img{
+  float: right;
+  margin-top: 20;
+  width: 500px;
+ }
+.Tennis  {
+color: rgb(211, 152, 15);
+ }
+ #t{
+  font-size: xx-large;
+  text-align-last: left;
+  /* float: left; */
+/*   padding-right: 200px; */
+  margin-top:25px ;
+    padding-left: 30px;
+/*   padding-top: -20px; */
+ }
+
+
+
+.card5{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 150px;
+  clear: both;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  height:350px;
+  box-shadow: -40px 40px 160px 0 rgb(0 0 0 / 8%), -8px 8px 15px 0 rgb(120 120 120 / 4%), 3px 3px 30px 0 rgb(0 0 0 / 4%) !important;
+  background-color:#FFFFFF;
+}
+.card5 a{
+  color: rgb(70, 69, 69);
+  font-size: larger;
+  margin-top:-25px ;
+/*   float: right; */
+  padding-left: 800px;
+  padding-top: 40px;
+}
+.card5 a{
+    color: black;
+    text-decoration: none;
+}
+.card5 a:hover{
+    text-decoration: underline;
+/* 	opacity: 0.9;
+	transition: 0.5s;
+	padding: 0; */
+}
+.card5 img{
+  float: left;
+  margin-top: -14%;
+
+ }
+.GYM  {
+color: rgb(211, 152, 15);
+ }
+ #g{
+  font-size: xx-large;
+  text-align-last: left;
+/*   float: right; */
+  padding-left: 800px;
+ }
+
+
+
+.card6{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  clear: both;
+  height:365px;
+  box-shadow: -40px 40px 160px 0 rgb(0 0 0 / 8%), -8px 8px 15px 0 rgb(120 120 120 / 4%), 3px 3px 30px 0 rgb(0 0 0 / 4%) !important;
+  background-color:#FFFFFF;
+}
+.card6 a{
+  color: rgb(70, 69, 69);
+  font-size: larger;
+  margin-top:-25px ;
+  float: left;
+  padding-left: 30px;
+  padding-top: 40px;
+}
+.card6 a{
+    color: black;
+    text-decoration: none;
+}
+.card6 a:hover{
+    text-decoration: underline;
+/* 	opacity: 0.9;
+	transition: 0.5s;
+	padding: 0; */
+}
+.card6 img{
+  float: right;
+  margin-top: 20;
+  width: 550px;
+ }
+.swamming bool {
+color: rgb(211, 152, 15);
+ }
+ #s {
+  font-size: xx-large;
+  text-align-last: left;
+  /* float: left; */
+  padding-left: 30px;
+ }
+#s h1{
+  color: rgb(211, 152, 15);
+ }
+
+
+.footer{
+  position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1C3879;
+    color: white;
+	margin-top: 20%;
+	clear: both;
+}
+
+#col-footer1{
+    width:20%;
+    float: left;
+    padding-left: 10px;
+    position: relative;
+}
+#col-footer1 a {
+    color: #ffff;
+    text-decoration: none;
+}
+.portfolio-image img{
+	height:6cm ;  
+}
+
+#col-footer2 {
+    width: 25%;
+	padding-left: 10px;
+	float: center;
+    position: relative;
+	color: white;
+	width: 100%;
+	margin-left: 600px;
+	padding-top: 10px;
+}
+#col-footer2 ul{
+    list-style: none;
+}
+#col-footer2 ul li a{
+    color: #ffff;
+    text-decoration: none;
+}
+#col-footer2 ul li a:hover{
+    text-decoration: underline;
+	
+}
+
+#col-footer3{
+    width: 25%;
+    float: right;
+    padding-left: 10px;
+    margin-left: 30px;
+	margin-top: -205px;
+	padding-bottom: 10px;
+}
+#col-footer3 a{
+	color: #d9bf3f;
+
+}
+
+.row2 {
+	clear: both;
+}
+
+
+@media screen and (max-width: 800px){
+	#leftcoulumn,#rightcolumn{ 
+		with: 100%;
+		padding: 0;
+		}
+		#header { 
+			display: none;
+		}
+	}

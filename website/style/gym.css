@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.header {
+	background: #1C3879;
+	font-size: 100%;
+	padding: 0;
+	width: 100%;
+	margin:auto;
+
+}
+.header img{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.header img:hover{
+	opacity: 0.9;
+	transition: 0.5s;
+	padding: 0;
+}
+
+
+.floatingMenu img{ 
+		width: 40px;
+		float: right;
+		margin-right: 50px;
+		margin-top: 10px;
+}
+.floatingMenu img:hover{ 
+	opacity: 0.9;
+	transition: 0.5s;
+	padding: 0;
+	
+}
+/* The side navigation menu */
+.sidenav {
+  opacity: 0.9;
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #2a2782; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+  opacity: 0.9;
+  transition: 0.5s;
+  padding: 0;
+}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* -------------------------------------------------- */
+
+body{
+  background:#F8F9FA ;
+}
+.screen{
+  font-family: verdana;
+  font-size: 12px;
+  background-image:url("https://odoocdn.com/openerp_website/static/src/img/2020/website/top_banner_leaf.jpg");
+  background-repeat: no-repeat;
+  background-color: #F8F9FA;
+  background-size: 400px auto;
+  background-position: 0% 100%;
+  height: auto;
+  margin: 0%;
+  width: 100%;
+  /* --layout: 'full'; */
+
+
+ 
+}
+#bookimg{
+ margin-top: 50px;
+background:#F8F9FA ;
+/* margin-left: 25%;  */
+margin-bottom:50px;
+width: 170%;
+float: left;
+margin-left: 30%;
+
+
+} 
+
+#price{
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: solid;
+  border: 1px solid rgba(0, 0, 0, 0.01);
+color:  rgb(8, 97, 33);
+max-width: 400px;
+max-height: 1000px;
+  margin-left: 65%;
+ 
+
+  /* font-weight: 700; */
+
+  z-index: 1;
+  position: relative;
+  height: auto;
+  background-color:#FFFFFF;
+  box-shadow: -40px 40px 160px 0 rgb(0 0 0 / 8%), -8px 8px 15px 0 rgb(120 120 120 / 4%), 3px 3px 30px 0 rgb(0 0 0 / 4%) !important;
+  float: left;
+  margin-bottom: -500%;
+
+}
+
+#form {
+
+
+   padding-left: 10px; 
+  border: solid;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+
+ max-width: 500px; 
+/* max-height: 1000px; */
+  margin-left: 30%;
+
+
+  /* font-weight: 700; */
+
+  /* z-index: 1; */
+  /* position: relative; */
+ 
+  background-color:#FFFFFF;
+  box-shadow: -40px 40px 160px 0 rgb(0 0 0 / 8%), -8px 8px 15px 0 rgb(120 120 120 / 4%), 3px 3px 30px 0 rgb(0 0 0 / 4%) !important;
+
+
+
+} 
+#form-body input{
+  border: 1px solid #CED4DA;  
+
+
+  /* width: 100%; */
+   /* height: calc(1.45em + 0.75rem + 2px);  */
+ 
+  /* padding: 0.375rem 0.75rem; */
+  /* font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.45; */
+
+}
+
+
+
+/* #text{
+  direction: rtl;
+} */
+ label{
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  cursor: default;
+  font-size: large;
+ 
+} 
+/* input {
+  height: calc(1.3em + 0.5rem + 2px);
+  padding: 0.25rem 0.375rem;
+  font-size: 0.75rem;
+  line-height: 1.3;
+  border-radius: 0.1875rem;
+} */
+#time input{
+  width: 100%; 
+  margin-right: 30px; 
+}
+/* #singupimg ul{
+list-style-type: none;
+
+
+}
+#singupimg ul li{
+  display: inline;
+ 
+} */
+
+#form-footer input{
+  border: 1px solid #CED4DA; 
+  transition: border-color 0.15s;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  height: calc(1.45em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  background-clip: padding-box;
+
+}
+#form-footer input:hover{
+border-color: black;
+}
+#book input {
+background-color: darkgoldenrod;
+text-align: center;
+
+padding-bottom: 10px;
+margin-top: 30px;
+width: 100%;
+
+
+}
+#cancle input{
+background:#ffff;
+margin-bottom: 30px;
+}
+
+#cancle input:hover{
+  opacity: 0.9;
+  transition: 0.5s;
+  padding: 0;
+  background-color: #7442ff;
+
+} 
+
+/* #singupimg img{
+  float: left;
+
+} */
+#singupimg  h3{
+  padding-top: 30px;
+ margin-right: 50px;
+ text-align: center;
+ font-size: x-large;
+ color: darkgoldenrod;
+
+}
+/* @media screen and (max-width:800px) {
+  #form, .footer{
+      width: 100%;
+  }
+
+  
+} */
+/* -----------------------------------------------------
+calendar */
+
+.wrapper{
+  width: 450px;
+  background: rgb(10, 46, 116);
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(255, 255, 255, 0.12);
+  margin-left: 13px;
+}
+.wrapper header{
+  display: flex;
+  align-items: center;
+  padding: 25px 30px 10px;
+  justify-content: space-between;
+}
+header .icons{
+  display: flex;
+}
+header .icons span{
+  height: 38px;
+  width: 38px;
+  margin: 0 1px;
+  cursor: pointer;
+  color: #ffffff;
+  text-align: center;
+  line-height: 38px;
+  font-size: 1.9rem;
+  user-select: none;
+  border-radius: 50%;
+}
+.icons span:last-child{
+  margin-right: -10px;
+}
+header .icons span:hover{
+  background: #f2f2f2;
+}
+header .current-date{
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+.calendar{
+  padding: 20px;
+}
+.calendar ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+.calendar .days{
+  margin-bottom: 20px;
+}
+.calendar li{
+  color: rgb(255, 255, 255);
+  width: calc(100% / 7);
+  font-size: 1.07rem;
+}
+.calendar .weeks li{
+  font-weight: 500;
+  cursor: default;
+}
+.calendar .days li{
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30px;
+}
+.days li.inactive{
+  color: #aaa;
+}
+.days li.active{
+  color: #fff;
+}
+.days li::before{
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.days li.active::before{
+  background: #dcca29;
+}
+.days li:not(.active):hover::before{
+  background: #777575;
+}
+.current-date{
+  color: #ffffff;
+}
+/* ------------------------------------ */
+
+.footer{
+  position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1C3879;
+    color: white;
+    clear: both;
+    /* margin-top: 20%; */
+ 
+}
+
+#col-footer1{
+    width:20%;
+    float: left;
+    padding-left: 10px;
+    position: relative;
+}
+#col-footer1 a {
+    color: #ffff;
+    text-decoration: none;
+}
+.portfolio-image img{
+    height:6cm ;  
+}
+
+#col-footer2 {
+    width: 25%;
+    padding-left: 10px;
+    float: center;
+    position: relative;
+    color: white;
+    width: 100%;
+    margin-left: 600px;
+    padding-top: 10px;
+}
+#col-footer2 ul{
+    list-style: none;
+}
+#col-footer2 ul li a{
+    color: #ffff;
+    text-decoration: none;
+}
+#col-footer2 ul li a:hover{
+    text-decoration: underline;
+    
+}
+
+#col-footer3{
+    width: 25%;
+    float: right;
+    padding-left: 10px;
+    margin-left: 30px;
+    margin-top: -205px;
+    padding-bottom: 10px;
+}
+#col-footer3 a{
+    color: #d9bf3f;
+
+}
+
+.row2 {
+    clear: both;
+}

@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    --layout: 'full';
+
+}
+
+.screen{
+    font-family: verdana;
+    font-size: 14px;
+    background-image:url("https://odoocdn.com/openerp_website/static/src/img/2020/website/top_banner_leaf.jpg");
+    background-repeat: no-repeat;
+    background-color: #F8F9FA;
+    background-size: 400px auto;
+    background-position: 0% 100%;
+
+    margin: 0%;
+    width: 100%;
+    --layout: 'full';
+
+
+   
+ }
+
+
+
+ #form {
+    padding: 30px;
+    border: solid;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+
+  max-width: 400px;
+  max-height: 1000px;
+    margin-left: 40%;
+
+    font-weight: 700;
+
+    z-index: 1;
+    position: relative;
+    height: auto;
+    background-color:#FFFFFF;
+    box-shadow: -40px 40px 160px 0 rgb(0 0 0 / 8%), -8px 8px 15px 0 rgb(120 120 120 / 4%), 3px 3px 30px 0 rgb(0 0 0 / 4%) !important;
+
+
+
+} 
+#form-body input{
+    border: 1px solid #CED4DA;  
+
+
+    width: 100%;
+    height: calc(1.45em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.45;
+    
+
+   
+}
+
+
+#text{
+    direction: rtl;
+}
+label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    cursor: default;
+   
+}
+input {
+    height: calc(1.3em + 0.5rem + 2px);
+    padding: 0.25rem 0.375rem;
+    font-size: 0.75rem;
+    line-height: 1.3;
+    border-radius: 0.1875rem;
+}
+#singupimg ul{
+list-style-type: none;
+
+
+}
+#singupimg ul li{
+    display: inline;
+   
+}
+
+#form-footer input{
+    border: 1px solid #CED4DA; 
+    transition: border-color 0.15s;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    height: calc(1.45em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    background-clip: padding-box;
+
+}
+#form-footer input:hover{
+border-color: black;
+}
+#bsingup input {
+background-color: darkgoldenrod;
+text-align: center;
+padding-left: 150px;
+padding-right: 150px;
+padding-bottom: 10px;
+  
+}
+#blogin{
+float: right;
+}
+
+
+#singupimg img{
+    float: left;
+
+}
+#singupimg  h3{
+   margin-right: 50px;
+   float: right;
+
+}
+@media screen and (max-width:800px) {
+    #form, .footer{
+        width: 100%;
+    }
+
+    
+}
+.header {
+	background: #1C3879;
+	font-size: 100%;
+	padding: 0;
+	width: 100%;
+	margin:auto;
+
+}
+.header img{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.header img:hover{
+	opacity: 0.9;
+	transition: 0.5s;
+	padding: 0;
+}
+
+
+.floatingMenu img{ 
+		width: 40px;
+		float: right;
+		margin-right: 50px;
+		margin-top: 10px;
+}
+.floatingMenu img:hover{ 
+	opacity: 0.9;
+	transition: 0.5s;
+	padding: 0;
+	
+}
+/* The side navigation menu */
+.sidenav {
+  opacity: 0.9;
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #2a2782; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+  opacity: 0.9;
+  transition: 0.5s;
+  padding: 0;
+}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/* ------------------------------------ */
+
+.footer{
+    position: relative;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #1C3879;
+      color: white;
+      clear: both;
+      /* margin-top: 20%; */
+  }
+  
+  #col-footer1{
+      width:20%;
+      float: left;
+      padding-left: 10px;
+      position: relative;
+  }
+  #col-footer1 a {
+      color: #ffff;
+      text-decoration: none;
+  }
+  .portfolio-image img{
+      height:6cm ;  
+  }
+  
+  #col-footer2 {
+      width: 25%;
+      padding-left: 10px;
+      float: center;
+      position: relative;
+      color: white;
+      width: 100%;
+      margin-left: 600px;
+      padding-top: 10px;
+  }
+  #col-footer2 ul{
+      list-style: none;
+  }
+  #col-footer2 ul li a{
+      color: #ffff;
+      text-decoration: none;
+  }
+  #col-footer2 ul li a:hover{
+      text-decoration: underline;
+      
+  }
+  
+  #col-footer3{
+      width: 25%;
+      float: right;
+      padding-left: 10px;
+      margin-left: 30px;
+      margin-top: -205px;
+      padding-bottom: 10px;
+  }
+  #col-footer3 a{
+      color: #d9bf3f;
+  
+  }
+  
+  .row2 {
+      clear: both;
+  }
